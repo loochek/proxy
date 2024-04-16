@@ -40,6 +40,7 @@ envoy_cc_binary(
         "//source/extensions/filters/http/istio_stats",
         "//source/extensions/filters/http/peer_metadata:filter_lib",
         "//source/extensions/filters/network/metadata_exchange:config_lib",
+        "//source/extensions/filters/network/postgres_tde:postgres_tde_config",
         "@envoy//source/exe:envoy_main_entry_lib",
     ],
 )
